@@ -44,7 +44,16 @@ function UpdateThatThing() {
 }
 
 
+//Question 6
+function UpdateDiv () {
+    {
+var div = document.querySelector('div');
+div.innerHTML += "New paragraph";
+div.style.backgroundColor = "yellow";
+};
+}
 
+UpdateDiv();
 
 //Question 7
 
